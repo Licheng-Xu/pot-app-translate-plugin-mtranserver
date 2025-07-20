@@ -1,14 +1,17 @@
 {
-  "id": "plugin.com.pot-app.lingva",
+  "id": "plugin.com.pot-app.mtranserver",
   "plugin_type": "translate",
-  "icon": "lingva.svg",
-  "display": "Lingva",
-  "homepage": "https://github.com/pot-app/pot-app-translate-plugin-template",
-  "needs": [{ "key": "requestPath", "display": "请求地址" }],
+  "icon": "mtranserver.png",
+  "display": "MTranServer",
+  "homepage": "https://github.com/Licheng-Xu/pot-app-translate-plugin-mtranserver",
+  "needs": [
+    { "key": "requestPath","display": "Request Path" },
+    { "key": "token","display": "API Token" }
+  ],
   "language": {
     "auto": "auto",
-    "zh_cn": "zh",
-    "zh_tw": "zh_HANT",
+    "zh_cn": "zh-CN",
+    "zh_tw": "zh-TW",
     "en": "en",
     "ja": "ja",
     "ko": "ko",
@@ -20,17 +23,7 @@
     "tr": "tr",
     "pt_pt": "pt",
     "pt_br": "pt",
-    "vi": "vi",
-    "id": "id",
-    "th": "th",
-    "ms": "ms",
     "ar": "ar",
-    "hi": "hi",
-    "mn_cy": "mn",
-    "mn_mo": "mn",
-    "km": "km",
-    "nb_no": "no",
-    "nn_no": "no",
     "fa": "fa"
   }
 }
